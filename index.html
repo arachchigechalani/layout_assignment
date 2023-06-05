@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        body > section {
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+        body>section:nth-child(1){
+            background-color: red;
+            left: 0;
+            top: 0;
+        }
+        body>section:nth-child(2){
+            background-color: green;
+            right: 0;
+            top: 0;
+        }
+        body>section:nth-child(3){
+            background-color: orange;
+            left: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(4){
+            background-color: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+
+        body>div{
+            background-color: white;
+            width: 125px;
+            height: 125px;
+            z-index: 10;
+            position: absolute;
+        }
+        body>div:nth-child(5){
+            border-bottom-right-radius: 125px;
+            left: 0;
+            top: 0;
+
+        }
+        body>div:nth-child(6){
+            border-bottom-left-radius: 125px;
+            right: 0;
+            top: 0;
+        }
+        body>div:nth-child(7){
+            border-top-right-radius: 125px;
+            left: 0;
+            bottom: 0;
+        }
+        body>div:nth-child(8){
+            border-top-left-radius: 125px;
+            right: 0;
+            bottom: 0;
+        }
+
+        body>div:nth-child(9){
+            width: 150px;
+            height: 150px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        body>div>div{
+            width: 100px;
+            height: 100px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            border-radius: 100%;
+            z-index: 100;
+            position: absolute;
+            background-color: red;
+            margin: auto;
+        }
+
+        body>div:nth-child(10){
+            width: 200px;
+            height: 100px;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            border-bottom-left-radius: 144px;
+            border-bottom-right-radius: 144px;
+
+        }
+        body>div:nth-child(11){
+            width: 200px;
+            height: 100px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            border-top-left-radius: 144px;
+            border-top-right-radius: 144px;
+        }
+
+        section>div{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+        section>div>div{
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+
+<!--main sections-->
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+
+<!--for circles-->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<!--for center box-->
+<div>
+    <!--for center circle-->
+    <div></div>
+</div>
+
+<!--for top & bottom half circles -->
+<div></div>
+<div></div>
+
+</body>
+</html>
